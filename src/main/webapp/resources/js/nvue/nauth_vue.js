@@ -88,6 +88,177 @@ auth_vue = {
 		<div id="s-footer" style="margin-top: 100px;">
 			<h3 style="margin-left: 37%;">2019 - 2020 © Goodfor. - www.Goodfor.com</h3>
 		</div>`
-    }
+	},
 	
+	join: () => {
+	    return `
+	    
+	    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<title>Bootstrap Elegant Sign Up Form</title>
+
+	<style type="text/css">
+		body {
+			color: #999;
+			background: #fafafa;
+			font-family: 'Roboto', sans-serif;
+		}
+		.form-control {
+	        min-height: 41px;
+			box-shadow: none;
+			border-color: #e6e6e6;
+		}
+		.form-control:focus {
+			border-color: #007bff;
+		}
+	    .form-control, .btn {        
+	        border-radius: 3px;
+	    }
+		.signup-form {
+			width: 425px;
+			margin: 0 auto;
+			padding: 30px 0;
+		}
+		.signup-form h2 {
+			color: #333;
+			font-weight: bold;
+	        margin: 0 0 25px;
+	    }
+	    .signup-form form {
+	    	margin-bottom: 15px;
+	        background: #fff;
+			border: 1px solid #f4f4f4;
+	        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	        padding: 40px 50px;
+	    }
+		.signup-form .form-group {
+			margin-bottom: 20px;
+		}
+		.signup-form label {
+			font-weight: normal;
+			font-size: 13px;
+		}
+		.signup-form input[type="checkbox"] {
+			margin-top: 2px;
+		}    
+	    .signup-form .btn {        
+	        font-size: 16px;
+	        font-weight: bold;
+			background: #007bff;
+			border: none;
+			min-width: 140px;
+	        outline: none !important;
+	    }
+		.signup-form .btn:hover, .signup-form .btn:focus {
+			background: #00b3b3;
+		}
+		.signup-form a {
+			color: #007bff;
+			text-decoration: none;
+		}	
+		.signup-form a:hover {
+			text-decoration: underline;
+		}
+	</style>
+	</head>
+
+	<body>
+	<div class="signup-form">
+	    <form action="/examples/actions/confirmation.php" method="post">
+			<h2>회원가입</h2>
+	        <div class="form-group">
+	        	<input type="text" id="join_uid" class="form-control" name="username" placeholder="Username" required="required">
+	        </div>
+	        <div class="form-group">
+	        	<input type="email" class="form-control" name="email" placeholder="Email Address" required="required">
+	        </div>
+			<div class="form-group">
+	            <input type="password" id="join_upw" class="form-control" name="password" placeholder="Password" required="required">
+	        </div>
+			<div class="form-group">
+	            <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password" required="required">
+	        </div>        
+	        <div class="form-group">
+				<label class="checkbox-inline"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+			</div>
+			<div class="form-group">
+	            <button id="btn_join" type="submit" class="btn btn-primary btn-lg">회원가입</button>
+	        </div>
+	    </form>
+		<div class="text-center">Already have an account? </div>
+	</div>
+
+	</body>
+	     
+	       
+	    `
+	  },
+
+	  login: ()=> {
+	    return `
+	        
+	    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Simple Login Form</title>
+
+	<style type="text/css">
+		.login-form {
+			width: 340px;
+	    	margin: 50px auto;
+		}
+	    .login-form form {
+	    	margin-bottom: 15px;
+	        background: #f7f7f7;
+	        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	        padding: 30px;
+	    }
+	    .login-form h2 {
+	        margin: 0 0 15px;
+	    }
+	    .form-control, .btn {
+	        min-height: 38px;
+	        border-radius: 2px;
+	    }
+	    .btn {        
+	        font-size: 15px;
+	        font-weight: bold;
+	    }
+	</style>
+	</head>
+
+	<body>
+		<div class="login-form">
+		    <form action="/examples/actions/confirmation.php" method="post">
+		        <h2 class="text-center">Log in</h2>       
+		        <div class="form-group">
+		            <input id="login_uid" type="text" class="form-control" placeholder="Username" required="required" value="kim">
+		        </div>
+		        <div class="form-group">
+		            <input id="login_upw" type="password" class="form-control" placeholder="Password" required="required" value="1234">
+		        </div>
+		        <div class="form-group">
+		            <button id="btn_login" type="submit" class="btn btn-primary btn-block">Log in</button>
+		        </div>
+		        <div class="clearfix">
+		            <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+		            <a href="#" class="pull-right">Forgot Password?</a>
+		        </div>        
+		    </form>
+		    <p class="text-center"><a id="a_join"href="#">회원가입</a></p>
+		     <p class="text-center"><a id="a_custMain"href="#">고객센터</a></p>
+		     <p class="text-center"><a id="a_mypage"href="#">마이페이지</a></p>
+	</div>
+
+	</body>
+	  
+	  `    
+	  
+	  },
+
+    	
 };

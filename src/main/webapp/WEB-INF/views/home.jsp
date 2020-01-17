@@ -32,6 +32,8 @@
 	<script src="<%=application.getContextPath()%>/resources/js/vue/s_admin02_vue.js"></script>
 	<script src="<%=application.getContextPath()%>/resources/js/vue/s_admin03_vue.js"></script>
 	<script src="<%=application.getContextPath()%>/resources/js/vue/s_admin04_vue.js"></script>
+	<script src="<%=application.getContextPath()%>/resources/js/vue/customer_vue.js"></script>
+	<script src="<%=application.getContextPath()%>/resources/js/vue/myPage_vue.js"></script>
 	
 </head>
 <body>
