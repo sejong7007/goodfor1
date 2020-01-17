@@ -54,7 +54,6 @@ auth = (()=>{
 				.html(customer_vue.custMain({css: $.css(), img: $.img()}))
 				.appendTo('#body_main')
 				notice.onCreate()
-				
 			})
 			$('#btn_admin').click(e=>{
 				e.preventDefault()
@@ -62,7 +61,6 @@ auth = (()=>{
 				.html(s_admin01_vue.admin01_body({css: $.css(), img: $.img(), ctx: $.ctx()}))
 				.appendTo('#body_main')
 				s_admin.onCreate()
-				
 			})
 			
 				$('#btn_admin').click(e=>{
