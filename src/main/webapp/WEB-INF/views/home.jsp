@@ -34,6 +34,7 @@
 	<script src="<%=application.getContextPath()%>/resources/js/vue/s_admin04_vue.js"></script>
 	<script src="<%=application.getContextPath()%>/resources/js/vue/customer_vue.js"></script>
 	<script src="<%=application.getContextPath()%>/resources/js/vue/myPage_vue.js"></script>
+	<script src="<%=application.getContextPath()%>/resources/js/vue/stockinfo_vue.js"></script>
 	
 </head>
 <body>
