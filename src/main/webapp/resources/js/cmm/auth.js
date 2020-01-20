@@ -78,7 +78,12 @@ auth = (()=>{
 				.html(stockinfo_vue.stockinfo_body({css: $.css(), img: $.img()}))
 				.appendTo('#body_main')
 			})
-			
+			$('#btn_mypage').click(e=>{
+				e.preventDefault()
+				$('#body_main').empty()
+				.html(myPage_vue.main({css: $.css(), img: $.img()}))
+				.appendTo('#body_main')
+			})
 		})
 	}
 	let setContentView =()=>{
