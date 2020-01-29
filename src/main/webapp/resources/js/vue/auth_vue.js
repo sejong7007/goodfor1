@@ -13,15 +13,6 @@ auth_vue = {
                     </a>
                 </div>
                 <nav class="navbar-custom">
-								<ul class="list-unstyled topbar-right-menu float-right mb-0">
-	                    <li class="nav-link dropdown-toggle arrow-none waves-light waves-effect">
-                            <div id="btn_trading" style="display:inline-block;width:20%;color:white;font-size:15px">트레이딩</div>
-							<div id="btn_stockinfo" style="display:inline-block;width:10%;color:white;font-size:15px">주식정보</div>
-							<div id="btn_mypage" style="display:inline-block;width:10%;color:white;font-size:15px">마이페이지</div>
-							<div id="btn_notice" style="display:inline-block;width:10%;color:white;font-size:15px">공지사항</div>
-							<div id="btn_admin" style="display:inline-block;width:10%;color:white;font-size:15px">관리자</div>
-							<div id="btn_login" style="display:inline-block;width:10%;color:white;font-size:15px">로그인</div>
-							<div id="btn_join" style="display:inline-block;width:10%;color:white;font-size:15px">회원가입</div>
                     <ul class="list-unstyled topbar-right-menu float-right mb-0" style="width: 70%;">
 	                    <li class="nav-link dropdown-toggle arrow-none waves-light waves-effect" style="margin-right: 170px; width: 70%;">
                             <div id="btn_trading" style="display:inline-block;width:15%;color:white;font-size:15px">트레이딩</div>
