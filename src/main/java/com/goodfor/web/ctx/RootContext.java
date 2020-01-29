@@ -41,6 +41,4 @@ public class RootContext {
 		return new DataSourceTransactionManager(dataSource());
 	}
 	
-	
-	
 }
