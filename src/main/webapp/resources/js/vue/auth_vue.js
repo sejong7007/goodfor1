@@ -27,7 +27,7 @@ auth_vue = {
                             <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" href="#">
                                 <i class="fi-bell noti-icon"></i>
                             </a>
-                        </li>
+                        	</li>
                         <li class="dropdown notification-list">
                             <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                                 <i class="fi-speech-bubble noti-icon"></i>
@@ -81,22 +81,27 @@ auth_vue = {
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner">
 						<div class="item active">
-							<img src="https://cafeptthumb-phinf.pstatic.net/MjAyMDAxMjBfMzkg/MDAxNTc5NTA2NTQ2MTIw.T4NtQ5DxbLOfFjPDbk-E6nYuYyvK9OgmTs8PrOg7A-gg.8JPLj8bzXREMAo7gL7Z-bfDD-yb25KE4Fi9K_AF2g8cg.JPEG/main_img2.jpg?type=w740" alt="img1" style="width:100%; height: 400px;">
+							<img src="${x.img}/mainintro1.png" alt="img1" style="width:100%; height: 400px;">
 							<div class="carousel-caption">
 							</div>
 						</div>
 						<div class="item">
-							<img src="https://cafeptthumb-phinf.pstatic.net/MjAyMDAxMjBfMjYg/MDAxNTc5NTA2NTQ1NTQz.xeC1tOWmxDhshk5WZjEgWFJJRV8YaGXzJlFz3TyyhzQg.XL5IeqbdNI9RVaHRRfzq9X0F88pNes1BXMihc6ruprMg.JPEG/main_img.jpg?type=w740" alt="img2" style="width:100%; height: 400px;">
+							<img src="${x.img}/mainintro2.png" alt="img2" style="width:100%; height: 400px;">
+							<div class="carousel-caption">
+							</div>
+						</div>
+						<div class="item">
+							<img src="${x.img}/mainintro3.png" alt="img2" style="width:100%; height: 400px;">
 							<div class="carousel-caption">
 							</div>
 						</div>
 						</div>
 						<!-- Left and right controls -->
-						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<a style="display:inline-block;color:gray;font-size:30px" href="#myCarousel" data-slide="prev">
 						<span class="glyphicon glyphicon-chevron-left"></span>
 						<span class="sr-only">Previous</span>
 						</a>
-						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<a style="display:inline-block;color:gray;font-size:30px;float:right" href="#myCarousel" data-slide="next">
 						<span class="glyphicon glyphicon-chevron-right"></span>
 						<span class="sr-only">Next</span>
 						</a>
