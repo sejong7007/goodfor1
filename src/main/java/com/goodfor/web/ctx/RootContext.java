@@ -26,7 +26,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class RootContext {
 	@Bean
 	public DataSource dataSource() {
-		
+
 		  DriverManagerDataSource dataSource = new DriverManagerDataSource();
 
 		  	dataSource.setDriverClassName("org.mariadb.jdbc.Driver");
@@ -40,5 +40,4 @@ public class RootContext {
 	public DataSourceTransactionManager txManager() {
 		return new DataSourceTransactionManager(dataSource());
 	}
-	
 }
